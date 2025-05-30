@@ -3,7 +3,8 @@ const users = require("./MOCK_DATA.json");
 const app = express();
 const PORT = 8000;
 
-
+//middelwhere - plugin
+app.use(express.urlencoded({ extended : false}));
 app.get('/users', (req,res) => {
     const html = `
     <ul>
@@ -20,6 +21,8 @@ app.get("/api/users", (req,res) => {
 
 //creating new users
 app.post("/api/users",(req,res) => {
+    const body = req.body;
+    console.log("body",body)
     return res.json({ stauts : "pending"});
 });
 
