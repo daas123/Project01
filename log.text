@@ -1,0 +1,21 @@
+1748705823942 : GET : /api/users
+1748705848741 : GET : /api/users/
+10011748705906544 : GET : /api/users/1001 
+1748705969625 : GET : /api/users
+1748706008841 : GET : /api/users/1001
+1748706035907 : GET : /api/users
+1748706040765 : POST : /api/users
+1748706772759 : POST : /api/users : ::1
+1748706780288 : POST : /api/users : ::1
+1748706798392 : POST : /api/users : ::1
+1748706824073 : GET : /api/users : ::1
+1748707457916 : POST : /api/users : ::1
+1748707592843 : POST : /api/users : ::1
+1748707610067 : POST : /api/users : ::1
+1748707999072 : POST : /api/users : ::1
+1748708004681 : POST : /api/users : ::1
+1748708008892 : POST : /api/users : ::1
+1748708030857 : POST : /api/users : ::1
+1748708033966 : POST : /api/users : ::1
+1748708927108 : GET : /api/users/10000 : ::1
+1748708944436 : GET : /api/users/10000 : ::1
